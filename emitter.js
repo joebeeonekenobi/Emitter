@@ -77,4 +77,7 @@ Emitter.test = function(){
 	emitter.raise("call", {"name" : "testName", "type" : "testType", "testValue" : 0});
 }
 
-module.exports = Emitter;
+if(!window){
+
+	module.exports = Emitter;
+}
