@@ -18,4 +18,4 @@ Download the file, and include in the browser, or require the file in node.js
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
