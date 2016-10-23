@@ -14,7 +14,7 @@ emitter.on("myEvent", function(argObject){
 	console.log(argObject);
 })
 
-`emitter.raise("myEvent", {name : "myName", value : "myValue"})`
+emitter.raise("myEvent", {name : "myName", value : "myValue"})`
 
 ## License
 
