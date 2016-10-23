@@ -12,9 +12,9 @@ Download the file, and include in the browser, or require the file in node.js
 
 `emitter.on("myEvent", function(argObject){
 	console.log(argObject);
-})`
+});`
 
-`emitter.raise("myEvent", {name : "myName", value : "myValue"})`
+`emitter.raise("myEvent", {name : "myName", value : "myValue"});`
 
 ## License
 
